@@ -1,0 +1,62 @@
+html {
+  background-color: rgba(0, 150, 250, 0.1);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  /* outline: red 1px solid; */
+}
+
+#todo-app {
+  max-width: 500px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#todo-app form {
+  width: 100%;
+}
+#todo-app form input {
+  width: 100%;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+#todo-app ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#todo-app ul li {
+  padding: 10px 0;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+#todo-app ul li:nth-child(odd) {
+  background-color: rgba(0, 150, 250, 0.1);
+}
+
+#todo-app ul li span {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+
+.text-center {
+  text-align: center;
+}
